@@ -28,18 +28,23 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-        omitGoogleFont: true
-      }
-    },
-    {
       resolve: `gatsby-plugin-web-font-loader`,
       options: {
         typekit: {
           id: `uuf2ciu`
         }
+      }
+    },
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: require("sass"),
+      }
+    },
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true,
       }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality

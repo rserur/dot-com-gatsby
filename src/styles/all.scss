@@ -1,0 +1,14 @@
+@import "~bulma/sass/utilities/initial-variables";
+
+// $primary
+// $body-color
+
+$family-sans-serif: "titling-gothic-fb", BlinkMacSystemFont, -apple-system,
+  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", 
+  "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+h1 {
+  text-transform: uppercase;
+}
+
+@import "~bulma";
