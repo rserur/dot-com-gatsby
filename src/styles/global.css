@@ -1,0 +1,9 @@
+h1 {
+  text-transform: uppercase;
+}
+
+body {
+  margin: 0 auto;
+  maxWidth: 960;
+  padding: 1.0875rem 1.45rem;
+}
