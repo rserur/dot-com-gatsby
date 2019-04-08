@@ -1,0 +1,19 @@
+/* HSL Palette */
+/* coolors.co/30292f-f15946-413f54-2f3061-71baac */
+$grey-dark: hsla(309%, 8%, 17%, 1);
+$grey-light: hsla(246%, 14%, 29%, 1);
+$red: hsla(7%, 86%, 61%, 1);
+$purple: hsla(239%, 35%, 28%, 1);
+$turquoise: #b3e2d9;
+
+/* BULMA VARIABLES */
+$primary: $turquoise;
+$dark: $grey-dark;
+$info: $purple;
+$danger: $red;
+
+$family-sans-serif: "titling-gothic-fb", BlinkMacSystemFont, -apple-system,
+  "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+  "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+
+$family-serif: "clarendon-urw", serif;

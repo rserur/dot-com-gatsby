@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import "../styles/all.scss"
-import Header from "./header"
+import Hero from "./hero"
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -23,17 +23,10 @@ const Layout = ({ children }) => (
       }
     `}
     render={data => (
-      <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div>
-          <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
-        </div>
-      </>
+      <div className="has-background-primary">
+        <Hero siteTitle={data.site.siteMetadata.title} />
+        <main>{children}</main>
+      </div>
     )}
   />
 )
@@ -43,3 +36,12 @@ Layout.propTypes = {
 }
 
 export default Layout
+
+
+// <footer>
+//   <div class="container">
+//     © {new Date().getFullYear()}, Built with
+//     {` `}
+//     <a href="https://www.gatsbyjs.org">Gatsby</a>
+//   </div>
+// </footer>

@@ -19,7 +19,7 @@ const Image = () => (
       query {
         selfie: file(relativePath: { eq: "rach-boston-2019.jpg" }) {
           childImageSharp {
-            fluid(maxWidth: 300) {
+            fluid(maxWidth: 410) {
               ...GatsbyImageSharpFluid
             }
           }
