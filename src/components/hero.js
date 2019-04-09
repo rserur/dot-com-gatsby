@@ -11,18 +11,18 @@ const Hero = class extends React.Component {
 
   render() {
     return (
-      <section class="hero is-primary is-bold">
-        <div class="hero-head">
+      <section className="hero is-primary is-bold">
+        <div className="hero-head">
           <Nav siteTitle={this.siteTitle}/>
         </div>
-        <div class="hero-body">
-          <div class="container">
-            <div class="columns">
-              <div class="column">
-                <h2 class="title">Hi! I'm Rachael.</h2>
-                <h3 class="subtitle">I'm a software engineer, UI/UX designer, and artist. I'm passionate about healthcare and building community.</h3>
+        <div className="hero-body">
+          <div className="container">
+            <div className="columns">
+              <div className="column">
+                <h2 className="title">Hi! I'm Rachael.</h2>
+                <h3 className="subtitle">I'm a software engineer, UI/UX designer, and artist. I'm passionate about healthcare and building community.</h3>
               </div>
-              <div class="column" style={{ maxWidth: `410px`, marginBottom: `1.45rem` }}>
+              <div className="column" style={{ maxWidth: `410px`, marginBottom: `1.45rem` }}>
                 <Image />
               </div>
             </div>

@@ -1,0 +1,41 @@
+{
+  "title": "Home",
+  "content": "intro.md",
+  "gallery": [
+    {
+      "title": "Miles Walked",
+      "copy": "Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+      "image": "../images/gallery/intersection-observer.jpg",
+      "vertical": false
+    },
+    {
+      "title": "Misinformation Project",
+      "copy": "Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+      "image": "../images/gallery/intersection-observer.jpg",
+      "vertical": false
+    },
+    {
+    "title": "Food Atlas",
+    "copy": "Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+    "image": "../images/gallery/food-atlas.png",
+    "vertical": false
+  },
+  {
+    "title": "Therapy Kit",
+    "copy": "Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+    "image": "../images/gallery/therapy-kit.png",
+    "vertical": true
+  },
+  {
+    "title": "Elixir with Love",
+    "copy": "Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+    "image": "../images/gallery/intersection-observer.jpg",
+    "vertical": false
+  },
+  {
+    "title": "Boston's Elixir Women",
+    "copy": "Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec ullamcorper nulla non metus auctor fringilla. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.",
+    "image": "../images/gallery/intersection-observer.jpg",
+    "vertical": false
+  }]
+}

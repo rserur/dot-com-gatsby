@@ -24,7 +24,9 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <div className="has-background-primary">
-        <Hero siteTitle={data.site.siteMetadata.title} />
+        <Hero
+          siteTitle={data.site.siteMetadata.title}
+        />
         <main>{children}</main>
       </div>
     )}
