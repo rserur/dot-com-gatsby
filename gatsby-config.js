@@ -55,6 +55,35 @@ module.exports = {
       options: {
         printRejected: true,
       }
+    },
+    // Passing paramaters (passed to apollo-link)
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        typeName: `GitHub`,
+        fieldName: `github`,
+        url: `https://api.github.com/graphql`,
+        headers: {
+          Authorization: `bearer ${process.env.GITHUB_TOKEN}`,
+        },
+        fetchOptions: {}
+      }
+    },
+    {
+      resolve: `gatsby-source-graphql`,
+      options: {
+        typeName: `GitHub`,
+        fieldName: `github`,
+        createLink: (pluginOptions) => {
+          return createHttpLink({
+            uri: `https://api.github.com/graphsql`,
+            headers: {
+              'Authorization': `bearer ${process.env.GITHUB_TOKEN}`,
+            },
+            fetch,
+          })
+        },
+      }
     }
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
