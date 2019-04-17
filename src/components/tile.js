@@ -20,4 +20,4 @@ Tile.propTypes = {
 
 export default Tile;
 
-// <div class={`tile is-child ${ vertical ? 'is-vertical' : '' }`}>
+// <div className={`tile is-child ${ vertical ? 'is-vertical' : '' }`}>

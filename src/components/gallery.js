@@ -30,7 +30,7 @@ const Gallery = class extends React.Component {
           {
             this.rows().map((row) => {
               return <div className="tile is-ancestor">
-                <div class="tile is-parent">
+                <div className="tile is-parent">
                   {
                     row.map((item, i) => {
                       return <Tile {...item} key={i} />
